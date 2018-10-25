@@ -6,7 +6,7 @@
   src: url('../futura/futura.woff2') format('woff2'),
        url('../futura/futura.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
        url('../futura/futura.woff') format('woff');
-}
+     }
 body {
   width: 100%;
   height: 100%;
@@ -22,12 +22,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .hero-text {
   position: absolute;
-  top: 7%;
+  top: %;
   left: 20%;
 
   text-align: center;
@@ -58,9 +57,9 @@ body {
 }
 
 .btn-link {
-    position: absolute;
-    top: 77%;
-    left: 73%;
+  position: absolute;
+  top: 77%;
+  left: 73%;
 
   padding: 20px 50px;
 
@@ -70,8 +69,8 @@ body {
   border: 15px solid #000;
   background-color: #fff;
 
-    font-family: 'futura';
-    font-size: 60px;
+  font-family: 'futura';
+  font-size: 60px;
 }
 
 .new{
@@ -91,13 +90,13 @@ body {
   top: 3%;
   left: 20%;
 
-padding: 37px 54px;
+  padding: 37px 54px;
 
-text-decoration: none;
+  text-decoration: none;
 
-color: #000;
-border: 15px solid #000;
-background-color: #fff;
+  color: #000;
+  border: 15px solid #000;
+  background-color: #fff;
 
   font-family: 'futura';
   font-size: 60px;
@@ -126,38 +125,41 @@ background-color: #fff;
   font-size: 30px;
 }
 .cal {
-  display: flex;
 
-  width: 20%;
+flex: initial;
+  width: 3%;
   height: 10%;
 
   background-color: #fff;
+  background-size: auto;
 
   font-family: 'futura';
 
   flex-wrap: wrap;
-  justify-content: space-between;
-}
-.cal-item{
-  top: 20%;
-  left: 20%;
+
+
 
   display: flex;
 
   color: #000;
   border: 15px solid #000;
 
-font-size: 45px;
+  font-size: 45px;
 }
+
+.soled{
+
+}
+
 .table{
   position: absolute;
   top:90%;
   left: 89%;
 
-padding: 18px 11px;
+  padding: 18px 11px;
 
-border: 15px solid #000;
-background-color: #fff;
+  border: 15px solid #000;
+  background-color: #fff;
 
   font-family: 'futura';
   font-size: 60px;
